@@ -33,4 +33,3 @@ In this challenge I learned about
 - Dynamic page rendering
 - Applying payment functionality using stripe
 - Connecting backend with realtime database
-- 
