@@ -21,3 +21,16 @@ It is a fully responsive amazon clone website. I have followed the Clever Progra
 ### Screenshot
 
 ![](src/images/Screenshot.png) 
+
+### What I learned
+
+In this challenge I learned about 
+
+- React Components
+- `useState` hooks
+- Redux
+- Applying Firebase authentication
+- Dynamic page rendering
+- Applying payment functionality using stripe
+- Connecting backend with realtime database
+- 
