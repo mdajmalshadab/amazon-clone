@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.recommendedProducts {
+  background-color: #fff;
+  margin: 7.5px 15px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.recommendedProducts__image {
+  margin: 10px;
+}
+
+.recommendedProducts h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0e7491;
+  font-family: sans-serif;
+}
+
+.recommendedProducts__rating {
+  display: flex;
+  align-items: flex-start;
+}
+
+.recommendedProducts__ratingCount {
+  margin-left: 5px;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #0e7491;
+}
+
+.recommendedProducts__star .starIcon {
+  width: 20px;
+  margin: 0 -1.5px;
+  filter: invert(77%) sepia(74%) saturate(2867%) hue-rotate(344deg)
+    brightness(99%) contrast(97%);
+}
+
+.recommendedProducts h3 {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+}
+
+.recommendedProducts p {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+.recommendedProducts small {
+  font-weight: 400;
+  font-size: 13px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.recommendedProducts__lastDiv {
+  position: relative;
+  height: 250px;
+}
+.recommendedProducts button {
+  position: absolute;
+  bottom: 0px;
+  background-image: linear-gradient(to bottom, #f7e7bf, #f0c14b);
+  border-radius: 2px;
+  width: 80%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+
+.recommendedProducts button:hover {
+  background-image: linear-gradient(to bottom, #f0d38a, #f0b727);
+}

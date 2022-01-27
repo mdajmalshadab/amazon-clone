@@ -1,0 +1,42 @@
+.notify {
+  width: 90px;
+  padding: 10px 2px;
+  margin: 10px 10px 10px 0;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  left: 100px;
+  animation: slide 5s ease-in;
+}
+.notify__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notify__product p {
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 500;
+}
+.notify__image {
+  width: 80%;
+}
+.notify__title {
+  font-size: 10px;
+}
+.show {
+  opacity: 1;
+}
+
+@keyframes slide {
+  3% {
+    transform: translateX(-100px);
+  }
+  97% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+    display: none;
+  }
+}

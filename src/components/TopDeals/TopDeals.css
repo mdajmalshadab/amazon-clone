@@ -1,0 +1,63 @@
+.topDeals {
+  background-color: #fff;
+  padding: 20px 20px 50px 20px;
+  margin: 7.5px 15px;
+}
+.topDeals__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.topDeals__heading {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.topDeals__heading p {
+  font-size: 0.8rem;
+  color: #438eac;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: 0 0 3px 10px;
+  cursor: pointer;
+}
+.topDeals__heading p:hover {
+  text-decoration: underline;
+  color: #855104;
+}
+.topDeals__heading h1 {
+  font-size: 1.3rem;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.topDealsCarousel__item {
+  padding: 0 15px;
+  width: max-content !important;
+  cursor: pointer;
+}
+.topDealsCarousel__item img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+/************************************************** For Smaller Screen Size  ******************************************/
+
+@media screen and (max-width: 700px) {
+  .topDeals {
+    background-color: #fff;
+    padding: 15px 15px 30px 15px;
+    margin: 7.5px 15px;
+  }
+  .topDealsCarousel__item {
+    padding: 0;
+  }
+
+  .topDealsCarousel__item img {
+    transform: scale(0.7);
+  }
+  .topDeals__heading {
+    margin-bottom: 10px;
+  }
+}

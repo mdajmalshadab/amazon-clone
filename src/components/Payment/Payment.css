@@ -1,0 +1,106 @@
+.payment {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.payment__container h1 {
+  text-align: left;
+  padding: 15px 0 15px 40px;
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid lightgrey;
+  background-color: rgba(234, 237, 237);
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.7;
+}
+.payment__details > form {
+  max-width: 400px;
+}
+.payment__details h3 {
+  padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+  background-image: linear-gradient(to bottom, #f7e7bf, #f0c14b);
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+.payment__details > form > div > button:hover {
+  background-image: linear-gradient(to bottom, #f7e7bf, #f7b613);
+}
+
+.payment__details > form > div > button:disabled {
+  background: #e4cc8a;
+}
+.payment__cardElement {
+  margin: 20px 0;
+  padding: 10px;
+}
+.payment__details h3 {
+  font-size: 16px;
+}
+.payment__priceContainer {
+  border: 1px solid #d3d3d3;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+/*********************************************** For Smaller Screen Size  *****************************************/
+@media screen and (max-width: 1400px) {
+  .payment__address,
+  .payment__items,
+  .payment__details {
+    flex: 0.8;
+  }
+}
+@media screen and (max-width: 800px) {
+  .payment__section {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .payment__container h1 {
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+  }
+
+  .payment__title {
+    font-size: 16px;
+  }
+  .payment__title,
+  .payment__details,
+  .payment__address {
+    margin: 20px 0 20px 20px;
+  }
+
+  .payment__priceContainer {
+    padding: 20px;
+    width: 80%;
+  }
+}

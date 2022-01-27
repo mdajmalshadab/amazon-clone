@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__backToTop {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #37475a;
+}
+.footer__backToTop p {
+  font-size: 13px;
+}
+.footer__upper {
+  background: #232f3e;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer__upper div {
+  margin: 50px 60px;
+}
+
+.footer__upper > div > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer__upper > div > p {
+  font-size: 13.5px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.footer__upper > div > p:hover {
+  text-decoration: underline;
+}
+.footer__hr {
+  height: 1px;
+  background-color: #37475a;
+}
+
+/******************************************************** Middle Section  *****************************************/
+.footer__middle {
+  background: #232f3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 250px;
+}
+.footer__amazonLogo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 80px;
+  object-fit: contain;
+  margin: 18px 80px 0 20px;
+  cursor: pointer;
+}
+.footer__amazonLogo button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 30px 4px 5px;
+  background-color: #232f3e;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: rgb(196, 192, 192);
+  cursor: pointer;
+}
+.footer__languageIcon {
+  margin-right: 3px;
+  transform: scale(0.7);
+}
+.footer__language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+.footer__language p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.footer__language p:hover {
+  text-decoration: underline;
+}
+
+/************************************************* Footer Bottom  **********************************************/
+.footer__bottom {
+  background-color: #131a22;
+  padding: 30px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.footer__services div {
+  margin: 10px 0;
+  min-width: 200px;
+}
+
+.footer__services > div > h3 {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(224, 222, 222);
+  cursor: pointer;
+}
+
+.footer__services > div > p {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  color: rgb(204, 200, 200);
+  cursor: pointer;
+}
+
+.footer__bottomCopyright {
+  margin-top: 40px;
+  display: flex;
+}
+.footer__bottomCopyright p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 20px;
+  color: rgb(224, 222, 222);
+  cursor: pointer;
+}
+
+.footer__services > div > p:hover,
+.footer__services > div > h3:hover,
+.footer__bottomCopyright p:hover {
+  text-decoration: underline;
+}
+
+/*********************************************************** For Smaller Screen Size  *********************************/
+@media screen and (max-width: 1200px) {
+  .footer__middle {
+    padding: 30px 150px;
+  }
+  .footer__bottom {
+    padding: 30px 0px;
+  }
+  .footer__upper div {
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__upper div {
+    margin: 30px 20px;
+    width: 150px;
+  }
+  .footer__upper > div > h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .footer__upper > div > p {
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .footer__middle {
+    display: none;
+  }
+  .footer__services {
+    display: none;
+  }
+  .footer__bottomCopyright p {
+    font-size: 10px;
+  }
+  .footer__bottom {
+    padding: 0px 10px 30px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__upper div {
+    margin: 30px 10px;
+    width: 120px;
+  }
+}

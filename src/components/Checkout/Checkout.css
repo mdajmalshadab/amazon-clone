@@ -1,0 +1,132 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  font-family: 'Open-sans', sans-serif;
+  height: max-content;
+}
+
+.checkout__titleSection {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: flex-end;
+}
+.checkout__emptyCart {
+  padding: 20px;
+}
+.checkout__emptyCart p {
+  margin-top: 10px;
+  color: #48778e;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkout__titleSection p {
+  margin-bottom: 5px;
+  color: rgb(88, 87, 87);
+  font-weight: 600;
+}
+
+.checkout__hr {
+  height: 1px;
+  background-color: lightgrey;
+  width: 95%;
+  margin-left: 20px;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 27px;
+  margin-left: 20px;
+  padding: 15px 0;
+}
+
+.checkout__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: white;
+  margin: 10px 10px 10px 0;
+}
+.checkout__right {
+  background-color: white;
+  margin: 10px 0 10px 10px;
+  height: min-content;
+}
+
+.checkout__bottomTotal {
+  padding: 30px 20px 50px 20px;
+  position: relative;
+  width: 100%;
+}
+.checkout__bottomTotal p {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  right: 80px;
+}
+
+/*********************************************** For Smaller Screen Devices  ***********************************************/
+
+@media screen and (max-width: 800px) {
+  .checkout {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 100%;
+  }
+  .checkout__right {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .checkout__ad {
+    order: 1;
+  }
+  .checkout__titleSection {
+    order: 2;
+    width: 100%;
+  }
+  .checkout__bottomTotal {
+    order: 3;
+    padding: 10px 0 30px 0;
+  }
+  .checkout__emptyCart {
+    order: 4;
+    height: 200px;
+  }
+  .checkout__hr {
+    order: 5;
+  }
+  .checkout__checkoutProduct {
+    order: 6;
+  }
+  .checkout__bottomTotal p {
+    font-size: 17px;
+    left: 20px;
+  }
+  .checkout__titleSection p {
+    display: none;
+  }
+  .checkout__left {
+    width: 100%;
+    margin: 0;
+    align-items: flex-start;
+  }
+  .checkout__title {
+    font-size: 24px;
+  }
+  .checkout__emptyCart p {
+    font-size: 13px;
+  }
+  .checkout__emptyCart h2 {
+    font-size: 18px;
+  }
+}

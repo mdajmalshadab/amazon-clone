@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.topDealItem p {
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/******************************************************** For Smaller Screen Size *******************************************/
+@media screen and (max-width: 700px) {
+  .topDealItem p {
+    transform: scale(0.8);
+  }
+}

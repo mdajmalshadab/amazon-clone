@@ -1,0 +1,23 @@
+.relatedItem {
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.relatedItem img {
+  margin: 10px 0;
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+/************************************************ For Smaller Screen Size  *******************************************/
+
+@media screen and (max-width: 700px) {
+  .relatedItem img {
+    transform: scale(0.8);
+  }
+  .relatedItem {
+    background-color: #fff;
+    margin: 5px;
+  }
+}
