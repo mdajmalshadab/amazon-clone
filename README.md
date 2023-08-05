@@ -20,7 +20,9 @@ It is a fully responsive amazon clone website. I have followed the Clever Progra
 
 ### Screenshot
 
-![](src/images/Screenshot.png) 
+![](src/images/Screenshot-1.png)  ![](src/images/Screenshot-2.png) 
+![](src/images/Screenshot-3.png)  ![](src/images/Screenshot-4.png) 
+![](src/images/Screenshot-5.png) 
 
 ### What I learned
 
